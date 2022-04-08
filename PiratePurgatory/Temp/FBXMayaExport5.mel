@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Users/clarkmahaffey/Documents/GitHub/PiratePurgatory/PiratePurgatory/Assets/Pirate Ship.mb"`)
+{		
+	file -o "/Users/clarkmahaffey/Documents/GitHub/PiratePurgatory/PiratePurgatory/Assets/Pirate Ship.mb";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Users/clarkmahaffey/Documents/GitHub/PiratePurgatory/PiratePurgatory/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "/Users/clarkmahaffey/Documents/GitHub/PiratePurgatory/PiratePurgatory/Temp/CommandPipe";
+
+$donepipeKill = `fopen "/Users/clarkmahaffey/Documents/GitHub/PiratePurgatory/PiratePurgatory/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;
