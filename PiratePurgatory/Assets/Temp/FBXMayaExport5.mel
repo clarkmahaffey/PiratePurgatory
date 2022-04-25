@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Users/bellalyu/Documents/GitHub/PiratePurgatory/PiratePurgatory/Assets/Assets/little_ghost.mb"`)
+{		
+	file -o "/Users/bellalyu/Documents/GitHub/PiratePurgatory/PiratePurgatory/Assets/Assets/little_ghost.mb";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Users/bellalyu/Documents/GitHub/PiratePurgatory/PiratePurgatory/Assets/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "/Users/bellalyu/Documents/GitHub/PiratePurgatory/PiratePurgatory/Assets/Temp/CommandPipe";
+
+$donepipeKill = `fopen "/Users/bellalyu/Documents/GitHub/PiratePurgatory/PiratePurgatory/Assets/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;
