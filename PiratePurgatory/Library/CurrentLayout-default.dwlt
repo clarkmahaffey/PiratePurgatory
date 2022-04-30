@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 821
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 771
-  m_MinSize: {x: 677, y: 471}
-  m_MaxSize: {x: 14000, y: 14021}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 14146
+  controlID: 1617
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1093
     height: 771
-  m_MinSize: {x: 402, y: 471}
-  m_MaxSize: {x: 10000, y: 14021}
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 14147
+  controlID: 1618
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1093
     height: 462
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 14148
+  controlID: 1619
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,10 +395,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 828}
-      m_SelectedIDs: b03f0000
-      m_LastClickedID: 16304
-      m_ExpandedIDs: 9892ffff0493ffff3493ffff6093ffffd493ffffd893ffff9094ffffaed3ffff72fbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: acdcffff
+      m_LastClickedID: -9044
+      m_ExpandedIDs: 72fbffffc23f0000ec3f0000aa400000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -458,9 +458,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.7312217, y: 59.886288, z: 41.224705}
+    m_Target: {x: 0, y: 36.48, z: 48.9}
     speed: 2
-    m_Value: {x: -3.7312217, y: 59.886288, z: 41.224705}
+    m_Value: {x: 0, y: 36.48, z: 48.9}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -507,13 +507,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.041753527, y: -0.94148725, z: 0.12672769, w: -0.30990165}
+    m_Target: {x: -0.17325391, y: -0.6574975, z: 0.15894794, w: -0.71600443}
     speed: 2
-    m_Value: {x: 0.041753527, y: 0.9414873, z: -0.12672769, w: 0.30990165}
+    m_Value: {x: 0.17325392, y: 0.6574975, z: -0.15894796, w: 0.71600443}
   m_Size:
-    m_Target: 36.43671
+    m_Target: 2.7606807
     speed: 2
-    m_Value: 36.43671
+    m_Value: 2.7606807
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -601,22 +601,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets/Pirate Ship Final
+    - Assets/Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets/Pirate Ship Final
+  - Assets/Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/clarkmahaffey/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/PiratePurgatory/PiratePurgatory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa600000
-    m_LastClickedID: 24746
-    m_ExpandedIDs: 000000003a5500003c5500003e550000405500006a55000000ca9a3b
+    m_SelectedIDs: d6570000
+    m_LastClickedID: 22486
+    m_ExpandedIDs: 000000009e570000a0570000a2570000a457000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003a5500003c5500003e5500004055000000ca9a3b
+    m_ExpandedIDs: 000000009e570000a0570000a2570000a457000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
