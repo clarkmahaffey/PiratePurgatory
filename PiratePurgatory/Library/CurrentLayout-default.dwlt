@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 8839
+  controlID: 186
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 8840
+  controlID: 187
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 8841
+  controlID: 188
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,10 +395,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 16}
-      m_SelectedIDs: 1a430000
-      m_LastClickedID: 17178
-      m_ExpandedIDs: 24c4ffff6edfffff72dffffffee3ffff12e8ffff62ecffffb6eeffffc2eeffffdaeeffffe8eeffffeceeffff72fbffff1a43000032430000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 50fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -509,11 +509,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.15648551, y: -0.65861416, z: 0.14264557, w: -0.72238207}
     speed: 2
-    m_Value: {x: -0.1564508, y: -0.658468, z: 0.14261392, w: -0.72222173}
+    m_Value: {x: 0.15648551, y: 0.65861416, z: -0.14264557, w: 0.72238207}
   m_Size:
     m_Target: 10.139936
     speed: 2
-    m_Value: 10.147547
+    m_Value: 10.139936
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -601,22 +601,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/bellalyu/Documents/GitHub/PiratePurgatory/PiratePurgatory
+  m_LastProjectPath: /Users/clarkmahaffey/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/PiratePurgatory/PiratePurgatory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 4}
-    m_SelectedIDs: 8a740000
-    m_LastClickedID: 29834
-    m_ExpandedIDs: 000000003a7400003c7400003e740000407400008a74000090740000be740000c074000000ca9a3b
+    m_SelectedIDs: 12750000
+    m_LastClickedID: 29970
+    m_ExpandedIDs: 00000000127500001475000016750000187500001a7500001c7500001e7500002075000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003a7400003c7400003e740000407400008a74000090740000be740000c074000000ca9a3b
+    m_ExpandedIDs: 00000000127500001475000016750000187500001a7500001c7500001e7500002075000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -696,7 +696,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 234.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 181
