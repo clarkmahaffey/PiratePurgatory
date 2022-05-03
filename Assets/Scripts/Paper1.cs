@@ -7,6 +7,8 @@ public class Paper1 : MonoBehaviour {
     public GameObject text1;
     public GameObject button2;
     public GameObject text2;
+    public AudioSource source;
+    public AudioClip clip;
     public bool pickedUpPaper;
     public bool inPaper1Trigger;
  
@@ -36,6 +38,7 @@ public class Paper1 : MonoBehaviour {
                 button2.SetActive (true);
                 text2.SetActive (true);
                 pickedUpPaper = true;
+                source.Play();
             }
          //}
         }
