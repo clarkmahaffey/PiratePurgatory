@@ -13,10 +13,12 @@ public class CutSceneEnter : MonoBehaviour
     public bool inCutscene;
     [SerializeField] private Animator Ghost;
     [SerializeField] private string GhostMove = "Ascend";
+    public int timer;
     
     void Start() {
      fade.alpha = 0;
      inCutscene = false;
+     timer = 0;
     }
 
     void OnTriggerEnter(Collider other)
@@ -32,7 +34,10 @@ public class CutSceneEnter : MonoBehaviour
     
     void Update() {
         if (inCutscene) {
-            fade.alpha += 0.002f;
+            timer++;
+            if (timer > 120) {
+                fade.alpha += 0.01f;
+            }
         }
     }
 }

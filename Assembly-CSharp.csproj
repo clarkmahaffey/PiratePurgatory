@@ -60,6 +60,7 @@
      <Compile Include="Assets\Dynamic Flickering Light\FlickeringLight.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
      <Compile Include="Assets\SampleSceneAssets\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\Scripts\AnimText.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\Scripts\LadderClimbScript.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
